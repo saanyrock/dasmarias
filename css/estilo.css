@@ -1,6 +1,22 @@
 body{
     margin: 0;
 }
+
+.home{
+	background:#000;
+	width:100%;
+	margin: 0;
+
+}
+
+.home iframe{
+	width: 100%;
+	height: 73%;
+	max-widht: 1200px;
+	margin: -10px;
+	margin: auto;
+
+}
 header{
     width: 100%;
     height: 16%;
@@ -8,8 +24,9 @@ header{
 }
 
 .logo img{
-    height: 80%;
-    max-width: 300px;
+    height: auto;
+	width: 69%;
+    max-width: 400px;
     margin-left: 2%;
     margin-top: 1%;
 }
@@ -29,11 +46,11 @@ header{
 
 footer {
     width: 100%;
-    height: 15%;
+    height: 10%;
     background: #641428; 
     font-size: 1.0em;
     color: #EBCCCE;
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
     line-height: 30px;
 
