@@ -40,9 +40,9 @@
         <footer>           
             <p>
                 (62) 3637-2142<br>
-                R. Benjamin Constant, 674, Goi?nia - GO, 74525-050               
+                R. Benjamin Constant, 674, Goiânia - GO, 74525-050               
             </p>
-             <div id="copyright">Copyright � 2016 - Design Grafico Modulo III Senac-GO | Todos os direitos reservados e protegidos</div>
+             <div id="copyright">Copyright © 2016 - Design Grafico Modulo III Senac-GO | Todos os direitos reservados e protegidos</div>
         </footer>
     </body>
 </html>
