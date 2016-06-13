@@ -5,6 +5,8 @@
         <meta http-equiv="Content-Type" content="text/php; charset=iso-8859-1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/estilo.css"/>
+        <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="js/arquivo.js"></script>
     </head>
     <body>
 
