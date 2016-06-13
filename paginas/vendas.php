@@ -13,6 +13,8 @@
     </a>
     
 </div>
+    <div class="barra">
+    </div>
 <div class="abas-conteudo">
     <div id="aba1-conteudo">
     <h3>Consignado</h3>

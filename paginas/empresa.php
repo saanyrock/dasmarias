@@ -1,25 +1,30 @@
 <div class="conteudo">
-    
-    <h1>A EMPRESA</h1>
+
+    <h4>A EMPRESA</h4>
+    <div class="fotos">
+     <img src="img/36570-O0UCH2.jpg"/>
     <img src="img/36570-O0UCH2.jpg"/>
-<h2>Porque nós o usamos?
-É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero).
+    </div>
+<br><h2>A loja Das Marias foi criada em dezembro de 2014 e está situada à Rua Benjamin Constant, 668, setor Campinas, Goiânia-GO. Tem como proprietária a Sra. Daniella Marques Marcelino e a Sra. Lúcia Marcelino da Silva. A ideia de montar a loja nesse segmento partiu do sonho dessas duas amigas, ex-bancárias, uma graduada em Administração de Empresas e a outra, já com experiência no mercado de joias e semijoias.</h2><br>
 
+<h3>O nome</h3>
+<h2>O nome Das Marias faz uma referência à todas as mulheres. Maria é um nome muito comum no Brasil, herança de nossos colonizadores portugueses. Além dessa herança, durante um tempo, o nome Maria tornou-se um substantivo próprio, muito utilizado para chamar todas as mulheres cujo o nome era desconhecido, “Dona Maria”, “Tia Maria” etc. Para a cultura cristã, católica, Maria é a Mãe de Jesus Cristo. </h2><br>
 
-De onde ele vem?<br />
-Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de 2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de 45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, consectetur, oriunda de uma passagem de Lorem Ipsum, e, procurando por entre citações da palavra na literatura clássica, descobriu a sua indubitável origem. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), de Cícero, escrito em 45 AC. Este livro é um tratado de teoria da ética muito popular na época da Renascença. A primeira linha de Lorem Ipsum, "Lorem Ipsum dolor sit amet..." vem de uma linha na seção 1.10.32.
+<h3>Missão<h3>
+<h2>Trazer ao público feminino Goianiense e cidades vizinhas novidades, exclusividades e tendências fashionistas em bijuterias finas, semijoias e acessórios, a um preço justo. Proporcionar experiências felizes a aquelas pessoas que desejam investir em seu próprio visual ou presentear alguém.</h2><br>
 
-O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914.
+<h3>Visão</h3>
+<h2>Ser referência no segmento de bijuterias finas, semijoias e acessórios femininos, buscando sempre novas tendências e atuando de forma competitiva com produtos originais, de altíssima qualidade e requinte.</h2><br>
 
-Onde posso conseguí-lo?
-Existem muitas variações disponíveis de passagens de Lorem Ipsum, mas a maioria sofreu algum tipo de alteração, seja por inserção de passagens com humor, ou palavras aleatórias que não parecem nem um pouco convincentes. Se você pretende usar uma passagem de Lorem Ipsum, precisa ter certeza de que não há algo embaraçoso escrito escondido no meio do texto. Todos os geradores de Lorem Ipsum na internet tendem a repetir pedaços predefinidos conforme necessário, fazendo deste o primeiro gerador de Lorem Ipsum autêntico da internet. Ele usa um dicionário com mais de 200 palavras em Latim combinado com um punhado de modelos de estrutura de frases para gerar um Lorem Ipsum com aparência razoável, livre de repetições, inserções de humor, palavras não características, etc.
+<h3>Valores</h3>
+<h2>Novidade, originalidade, tendências, qualidade, requinte</h2><br>
 
+<h3>Core Business (Negócio da Empresa)</h3>
+<h2>Novidade e originalidade em bijuterias finas, semijoias e acessórios.</h2><br>
 
-5
-	parágrafos
-	palavras
-	bytes
-	listas
-	Começar com 'Lorem ipsum dolor sit amet...'
-Gerar Lorem Ipsum </h2>
+<h3>Ramo de Atividade</h3>
+<h2>Loja de bijuterias finas, semijoias e acessórios para o público feminino.</h2><br>
+
+<h3>Modalidades de Negócio<h3>
+<h2>Varejo, atacado e consignado </h2><br>
 </div>
