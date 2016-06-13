@@ -2,6 +2,7 @@
     <head>
         <title>Das Marias</title>
         <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/php; charset=iso-8859-1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/estilo.css"/>
     </head>
@@ -9,9 +10,19 @@
 
 
         <header>
+            <div class="midia">
+                <a class="face" href="https://www.facebook.com/dasmariassemijoias" target="_blank">
+                    <img src="img/face.png">
+                </a>
+                <a class="insta" href="https://www.instagram.com/dasmariassemijoias" target="_blank">
+                    <img src="img/insta.png">
+                </a>
+
+            </div>
             <div class="logo"> 
                 <img src="img/logo.png"/>
             </div>
+
 
         </header>
 
@@ -25,9 +36,13 @@
             }
             ?>
         </main>
-        
-        <footer>
-            
+
+        <footer>           
+            <p>
+                (62) 3637-2142<br>
+                R. Benjamin Constant, 674, Goiânia - GO, 74525-050               
+            </p>
+             <div id="copyright">Copyright Â© 2016 - Design Grafico Modulo III Senac-GO | Todos os direitos reservados e protegidos</div>
         </footer>
     </body>
 </html>
