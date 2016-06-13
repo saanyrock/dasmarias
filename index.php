@@ -2,11 +2,14 @@
     <head>
         <title>Das Marias</title>
         <meta charset="UTF-8">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
         <meta http-equiv="Content-Type" content="text/php; charset=iso-8859-1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <font face="Trebuchet MS, Arial, Helvetica, sans-serif"/>
         <link rel="stylesheet" href="css/estilo.css"/>
         <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
         <script type="text/javascript" src="js/arquivo.js"></script>
+       
     </head>
     <body>
 
@@ -19,11 +22,19 @@
                 <a class="insta" href="https://www.instagram.com/dasmariassemijoias" target="_blank">
                     <img src="img/insta.png">
                 </a>
-
             </div>
+             <div class="menu">
+                <div class="menuItem"><a class="menuLink" href="?pagina=home">Home</a></div>
+                <div class="menuItem"><a class="menuLink" href="?pagina=empresa">Empresa</a></div>
+                <div class="menuItem"><a class="menuLink" href="?pagina=produtos">Produtos</a></div>
+                <div class="menuItem"><a class="menuLink" href="?pagina=vendas">Vendas</a></div>
+                <div class="menuItem"><a class="menuLink" href="?pagina=contato">Contatos</a></div>
+             </div>
+             
             <div class="logo"> 
-                <img src="img/logo.png"/>
+                 <a " href="?pagina=home"><img src="img/logo.png"/> </a>
             </div>
+
 
 
         </header>

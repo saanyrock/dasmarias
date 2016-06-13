@@ -1,7 +1,6 @@
 @font-face {
-	font-family: FuturaLTBook;
-	src:url(../fontes/FuturaLTBook.ttf);
-	}
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 	
 body{
     margin: 0;
@@ -24,7 +23,7 @@ body{
 }
 header{
     width: 100%;
-    height: 16%;
+    height: 15%;
     background: #641428;  
 }
 
@@ -49,20 +48,25 @@ header{
     width: 22px;
 }
 
-.conteudo {
-	width: 100%;
-	max-width: 1200px;
-	margin:auto;
-	height: 75%;
-	background:#0F0;
+.menu {
+	float:right;
+	background:#C90;
 }
 
-.conteudo2 {
+.menuItem {
+	background:#F36;
+	display:inline;
+	color: #fff;
+		}
+		
+
+.conteudo {
 	width: 100%;
-	max-width: 1200px;
-	margin:auto;
+	max-width: 1160px;
 	height: 75%;
-	background:#0g0;
+	position:relative;
+    left: 50%;
+	transform: translateX(-50%);
 }
 
 .abas  {
@@ -70,6 +74,7 @@ header{
 	width: 100%;
 	height:8%;
 	text-align:center;
+	margin-bottom: 3%;
 }
 
 .aba {
@@ -78,8 +83,14 @@ header{
 	background:#ee9aa6;
 	float:left;
 	margin: 0;
+	color: #641428;
+	font-size: 1.1em;
 	border-top-left-radius: 10% 100%;
     border-top-right-radius: 10% 100%;	
+}
+
+.aba-selecionada{
+background: #fff;
 }
 
 #aba2-conteudo {
@@ -93,16 +104,25 @@ header{
 	height:auto;
 	margin: 10px;
 }
+
+h3 {
+	font-size:1.3em;
+	color: #641428;
+	margin: 5px 15px 0 15px;
+}
 h2 {
 	color:#333;
+	margin: 0 15px;
 	font-size: 1.1em;
 	text-align:justify;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	margin: 5px 15px 0 15px;
 }
 
 h1 {
 	color: #641428;
 	font-size: 1.6em;
+	margin: 10px 15px 0px 15px;
 	}
 
 p {
@@ -127,9 +147,7 @@ footer {
     width: auto;
     margin: 0 auto;
     text-align: center;
-    line-height: 30px;
     color: #fff;
-    font-size: 0.8em;
-    background: #641428; 
-    margin-top: -15px;
+    font-size: 0.7em;
+    margin-top: 1px;
 }
