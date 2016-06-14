@@ -21,8 +21,8 @@
     </div>
     <div id="aba2-conteudo">
         <div class="right">
-<img src="img/04.jpg"/>
-      <img src="img/01.jpg"/>
+<img src="img/04.png"/>
+      <img src="img/01.png"/>
     </div>
         <h3>Semi Joias e Bijuterias</h3><br />
         <h2>Para evitar riscos guarde-as em compartimentos individuais ou em saquinhos de plastico ou veludo.<br><br />
