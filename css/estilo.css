@@ -40,12 +40,12 @@ header{
 
 #menu-cabecalho{
     height: 40%;
- width: 550px;
- float: right;
- font-size: 1.3em;   
-margin-top: 88px;
-margin-right: -50px;
-margin-bottom: 0;
+    width: 550px;
+    float: right;
+    font-size: 1.3em;   
+    margin-top: 88px;
+    margin-right: -50px;
+    margin-bottom: 0;
 }
 
 #menu-cabecalho .menuitem {
@@ -59,7 +59,7 @@ margin-bottom: 0;
 }
 #menu-cabecalho a{
     display: block;
-       
+
 }
 
 .menulink {
@@ -105,6 +105,7 @@ margin-bottom: 0;
 
 .conteudo {
     width: 100%;
+	height:auto;
     max-width: 1160px;
     min-height: 75%;
     position:relative;
@@ -137,8 +138,8 @@ margin-bottom: 0;
 
 .conteudo iframe{
     float:right;
-    height: 68%;
-    min-width: 380px;
+    height: 60%;
+    min-width: 300px;
     width: 48%;
 }
 
@@ -156,20 +157,22 @@ margin-bottom: 0;
 .aba {
     width: 50%;
     height: 100%;
-    background: rgb(250,190,190);
-    float:left;
     margin: 0;
     color: #641428;
     font-size: 1.1em;
-    border-top-left-radius: 10% 100%;
-    border-top-right-radius: 10% 100%;	
+    background: url(../img/aba2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    float:left;
+    background-size:100% 100%;
 }
 
 .aba-selecionada{
-    background: rgb(250,220,220);
-    box-shadow: 3px -4px 1px #CCC;
-    -webkit-box-shadow: 3px -4px 10px #ccc;
-    -moz-box-shadow: 5px 5px 10px #ccc;
+    background: url(../img/aba1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    float:left;
+    background-size:100% 100%;
 }
 
 #aba2-conteudo {
@@ -223,7 +226,7 @@ p {
 
 .fomulario input{
     width: 90%;
-    height: 5%;
+    height: 35px;
     background:rgb(250,220,220);
     border:none;
     color:#333;
@@ -232,7 +235,9 @@ p {
 }
 
 #nome {
-    border-radius: 0 30px 0 0;
+    background: url(../img/name.png);
+    float:left;
+    background-size:100% 100%;
 }
 
 .fomulario label {
@@ -244,25 +249,28 @@ p {
 #mensagem {
     width: 90%;
     float: left;
-    height: 30%;
+    height: 270px;
     background:rgb(250,220,220);
     color:#333;
     font-size: 1.2em;
     border:none;
     margin-left: 15px;
-    border-radius: 0 0 0 30px;
+    background: url(../img/msg.png);
+    background-size:100% 100%;
 }
 
 
 #enviar {
     min-width: 100px;
     width: 40%;
-    background:rgba(100,19,40,1.00);
+    height: 6%;
+    background: url(../img/enviar.png);
+    background-size:100% 100%;
     color:rgb(250,220,220);
     font-size: 1.2em;
+    margin-left: 12%;
     border:none;
-    margin: 2%;
-    border-radius: 0 0px 30px 30px;
+    margin-top: 20px;
 }
 
 
@@ -278,6 +286,7 @@ footer {
     padding: 0;
     text-align: center;
     line-height: 30px;
+	position: bottom;
 
 }
 
