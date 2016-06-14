@@ -11,6 +11,4 @@ function selecionaAba2(){
 	$("#aba2-conteudo").show();
 	$("#aba1").removeClass("aba-selecionada");
 	$("#aba2").addClass("aba-selecionada");
-
-
 }

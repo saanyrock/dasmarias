@@ -70,6 +70,11 @@ header{
 	margin: 10px;
 }
 
+.conteudo iframe{
+	float:right;
+	height: 68%;
+}
+
 .fotos {
 	float:right;
 	height:auto;
@@ -78,11 +83,27 @@ header{
 }
 .fotos img {
 	float:right;
-	border-radius: 30px 0 40px 0;
 	width: 90%;
 	height: auto;
 	margin: 10px;
 }
+.bvc { left: -15px }
+.bevel, .content { border-width: 15px }
+.bevel, .content { border-color: #efefef; border-style:solid; }
+
+.bvc {
+    width: 100%; /* width of overall box, variable or fixed */ 
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.bvc .tr, .bvc .tl, .bvc .br, .bvc .bl { height: 0px; width: 100%; }
+.bvc .tr, .bvc .tl { border-top: 0; }
+.bvc .br, .bvc .bl { border-bottom: 0; }
+.bvc .tr, .bvc .br { border-right-color: transparent; }
+.bvc .tl, .bvc .bl { border-left-color: transparent; }
+.no_bevel { height: 0px; width: 100%; border-bottom: 0; }
 
 
 .abas  {
@@ -152,6 +173,58 @@ h1 {
 p {
 	margin: 0
 }
+
+.fomulario input{
+	width: 50%;
+	height: 4%;
+	background:rgb(250,220,220);
+	border:none;
+	color:#333;
+	font-size: 1.1em;
+	margin: 0px 15px 15px 15px;
+}
+
+#nome {
+	border-radius: 0 30px 0 0;
+}
+
+.fomulario label {
+	font-size:1.3em;
+	color: #641428;
+	margin: 0px 15px 15px 15px;
+}
+
+#mensagem {
+	width: 50%;
+	float: left;
+	height: 30%;
+	background:rgb(250,220,220);
+	color:#333;
+	font-size: 1.2em;
+	border:none;
+margin-left: 15px;
+	background:
+		linear-gradient(0deg, transparent 10px, rgb(250,220,220) 0) top left,
+		linear-gradient(0deg, transparent 10px, rgb(250,220,220) 0) top right,
+		linear-gradient(0deg, transparent 10px, rgb(250,220,220) 0) bottom right,
+		linear-gradient(45deg,  transparent 10px, rgb(250,220,220) 0) bottom left;
+		background-size: 50% 50%;
+		background-repeat: no-repeat;
+}
+
+#enviar {
+	width: 20%;
+	float: left;
+	background:rgba(100,19,40,1.00);
+	color:rgb(250,220,220);
+	font-size: 1.2em;
+	border:none;
+	margin: 2%;
+	border-radius: 0 0px 30px 30px;
+}
+
+
+
 
 
 footer {

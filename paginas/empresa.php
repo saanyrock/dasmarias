@@ -1,6 +1,6 @@
 <div class="conteudo">
     <div class="fotos">
-      <img src="img/04.jpg"/>
+<img src="img/04.jpg"/>
       <img src="img/01.jpg"/>
       <img src="img/03.jpg"/>
     </div>
