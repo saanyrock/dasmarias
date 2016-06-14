@@ -48,18 +48,6 @@ header{
     width: 22px;
 }
 
-.menu {
-	float:right;
-	background:#C90;
-}
-
-.menuItem {
-	background:#F36;
-	display:inline;
-	color: #fff;
-		}
-		
-
 .conteudo {
 	width: 100%;
 	max-width: 1160px;
@@ -73,43 +61,28 @@ header{
 .conteudo iframe{
 	float:right;
 	height: 68%;
+	min-width: 380px;
+	width: 48%;
 }
 
-.fotos {
+.right {
 	float:right;
 	height:auto;
-	width: 50%;
+	width: 55%;
+	min-width: 300px;
 	
 }
-.fotos img {
+.right img {
 	float:right;
-	width: 90%;
+	width: 85%;
 	height: auto;
 	margin: 10px;
 }
-.bvc { left: -15px }
-.bevel, .content { border-width: 15px }
-.bevel, .content { border-color: #efefef; border-style:solid; }
-
-.bvc {
-    width: 100%; /* width of overall box, variable or fixed */ 
-    margin: 0 auto;
-    position: relative;
-    margin-bottom: 15px;
-}
-
-.bvc .tr, .bvc .tl, .bvc .br, .bvc .bl { height: 0px; width: 100%; }
-.bvc .tr, .bvc .tl { border-top: 0; }
-.bvc .br, .bvc .bl { border-bottom: 0; }
-.bvc .tr, .bvc .br { border-right-color: transparent; }
-.bvc .tl, .bvc .bl { border-left-color: transparent; }
-.no_bevel { height: 0px; width: 100%; border-bottom: 0; }
-
 
 .abas  {
 	margin-top:10px;
 	width: 100%;
-	height:8%;
+	height:6%;
 	text-align:center;
 	margin-bottom: 3%;
 	margin: 0;
@@ -129,6 +102,9 @@ header{
 
 .aba-selecionada{
 background: rgb(250,220,220);
+box-shadow: 3px -4px 1px #CCC;
+-webkit-box-shadow: 3px -4px 10px #ccc;
+-moz-box-shadow: 5px 5px 10px #ccc;
 }
 
 #aba2-conteudo {
@@ -174,9 +150,17 @@ p {
 	margin: 0
 }
 
-.fomulario input{
+.left {
 	width: 50%;
-	height: 4%;
+	height: 70%;
+	float: left;
+    min-width: 300px;
+	
+}
+
+.fomulario input{
+	width: 90%;
+	height: 5%;
 	background:rgb(250,220,220);
 	border:none;
 	color:#333;
@@ -195,26 +179,21 @@ p {
 }
 
 #mensagem {
-	width: 50%;
+	width: 90%;
 	float: left;
 	height: 30%;
 	background:rgb(250,220,220);
 	color:#333;
 	font-size: 1.2em;
 	border:none;
-margin-left: 15px;
-	background:
-		linear-gradient(0deg, transparent 10px, rgb(250,220,220) 0) top left,
-		linear-gradient(0deg, transparent 10px, rgb(250,220,220) 0) top right,
-		linear-gradient(0deg, transparent 10px, rgb(250,220,220) 0) bottom right,
-		linear-gradient(45deg,  transparent 10px, rgb(250,220,220) 0) bottom left;
-		background-size: 50% 50%;
-		background-repeat: no-repeat;
+	margin-left: 15px;
+	border-radius: 0 0 0 30px;
 }
 
+
 #enviar {
-	width: 20%;
-	float: left;
+	min-width: 100px;
+	width: 40%;
 	background:rgba(100,19,40,1.00);
 	color:rgb(250,220,220);
 	font-size: 1.2em;
@@ -248,3 +227,53 @@ footer {
     font-size: 0.7em;
     margin-top: 1px;
 }
+
+#menu-cabecalho{
+    margin: 10px 20px 0 0;
+    width: auto;
+    float: right;
+    font-size: 16pt;
+    visibility: visible;
+    transition: 150ms;
+	}
+#menu-cabecalho .menuItem{
+	margin-top: 69px;	
+    width: 130px;
+	float:left;
+	background:
+	
+}
+
+
+#menu-cabecalho a{
+    float: left;
+    display: block;
+    color:#fff;
+    text-decoration: none;
+}
+
+#menu-cabecalho .menuLink{
+    text-align: center;
+    float: left;
+    margin: 0;
+    padding: 0 0px 14px 0px;
+    height: 55px;
+	width: 140px;
+	line-height: 60px;
+    transition: 150ms;
+}
+
+#menu-cabecalho .menuLink:hover{
+	background: url(../img/hover.png);
+	background-repeat: no-repeat;
+	width:140px;
+	color: rgb(250,190,190);
+	}
+	
+.menuativo .menuLink{
+	background: url(../img/hover.png);
+	background-repeat: no-repeat;
+	width:140px;
+	color: rgb(250,190,190);
+	}
+	

@@ -13,7 +13,7 @@
     </head>
     <body>
 
-
+<body onload="menuativo()">
         <header>
             <div class="midia">
                 <a class="face" href="https://www.facebook.com/dasmariassemijoias" target="_blank">
@@ -23,17 +23,16 @@
                     <img src="img/insta.png">
                 </a>
             </div>
-             <div class="menu">
-                <div class="menuItem"><a class="menuLink" href="?pagina=home">Home</a></div>
-                <div class="menuItem"><a class="menuLink" href="?pagina=empresa">Empresa</a></div>
-                <div class="menuItem"><a class="menuLink" href="?pagina=produtos">Produtos</a></div>
-                <div class="menuItem"><a class="menuLink" href="?pagina=vendas">Vendas</a></div>
-                <div class="menuItem"><a class="menuLink" href="?pagina=contato">Contatos</a></div>
+          <menu id="menu-cabecalho">
+                <div class="menuItem" name="home"><a class="menuLink" href="?pagina=home">Home</a></div>
+                <div class="menuItem" name="empresa"><a class="menuLink" href="?pagina=empresa">Empresa</a></div>
+                <div class="menuItem" name="produtos"><a class="menuLink" href="?pagina=produtos">Produtos</a></div>
+                <div class="menuItem" name="vendas"><a class="menuLink" href="?pagina=vendas">Vendas</a></div>
+                <div class="menuItem" name="contato"><a class="menuLink" href="?pagina=contato">Contatos</a></div>
              </div>
+             </menu>
              
-            <div class="logo"> 
-                 <a " href="?pagina=home"><img src="img/logo.png"/> </a>
-            </div>
+            <div class="logo"><a " href="?pagina=home"><a " href="?pagina=home"><a " href="?pagina=home"></a><a " href="?pagina=home"><img src="img/logo.png"/></a></a></a></div>
 
 
 
