@@ -5,10 +5,11 @@
         <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
         <meta http-equiv="Content-Type" content="text/php; charset=iso-8859-1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#641428">
     <font face="Trebuchet MS, Arial, Helvetica, sans-serif"/>
     <link rel="stylesheet" href="css/estilo.css"/>
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-    <script type="text/javascript" src="js/arquivo.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
 
 </head>
 <body>
