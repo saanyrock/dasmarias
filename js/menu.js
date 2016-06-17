@@ -35,11 +35,22 @@ function menuativo() {
     $(".menuItem").each(function (elemento) {
         if ($_GET['pagina'] == $(this).attr("name")) {
             $(this).addClass("menuativo");
-            ativo=true;
+            ativo = true;
 
         }
     });
-    if (!ativo){
-    $("#home").addClass("menuativo");
+    if (!ativo) {
+        $("#home").addClass("menuativo");
     }
+}
+function MenuMobile() {
+    if (!$(".trigger").hasClass("TriggerAtivo")) {
+        $("body").addClass("bodyMove");
+        $(".trigger").addClass("TriggerAtivo");
+    } else {
+        $("body").removeClass("bodyMove");
+        $(".trigger").removeClass("TriggerAtivo");
+    }
+
+
 }

@@ -31,10 +31,26 @@
             <div class="menuItem" name="produtos" id="produtos"><a class="menuLink" href="?pagina=produtos">Produtos</a></div>
             <div class="menuItem" name="vendas" id="vendas"><a class="menuLink" href="?pagina=vendas">Vendas</a></div>
             <div class="menuItem" name="contato" id="contato"><a class="menuLink" href="?pagina=contato">Contatos</a></div>
-            </div>
         </menu>
         <div class="logo"><a  href="?pagina=home"><a  href="?pagina=home"><a  href="?pagina=home"></a><a  href="?pagina=home"><img src="img/logo.png"/></a></a></a></div>
 
+        <a href='#' class="trigger" onclick="MenuMobile()">
+            <img src='img/diamante-08.png' width='50'/>
+        </a>
+        <menu id="menu-compacto">
+            <div class="menuItem" ><a class="menuLink" href="?pagina=empresa">Empresa</a></div>
+            <div class="menuItem" ><a class="menuLink" href="?pagina=produtos">Produtos</a></div>
+            <div class="menuItem" ><a class="menuLink" href="?pagina=vendas">Vendas</a></div>
+            <div class="menuItem" ><a class="menuLink" href="?pagina=contato">Contatos</a></div>
+            <div class="midiacompact">
+                <a class="face" href="https://www.facebook.com/dasmariassemijoias" target="_blank">
+                    <img src="img/face.png">
+                </a>
+                <a class="insta" href="https://www.instagram.com/dasmariassemijoias" target="_blank">
+                    <img src="img/insta.png">
+                </a>
+            </div>
+        </menu>
 
 
 
