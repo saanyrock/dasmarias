@@ -62,7 +62,7 @@ header{
 
 }
 
-.menulink {
+#menu-cabecalho .menulink {
     color: #fff;
     text-decoration: none;
     text-align: center;
@@ -78,13 +78,53 @@ header{
     color: rgb(250,190,190);
 }
 
-.menuativo .menulink{
+#menu-cabecalho .menuativo .menulink{
     background: url(../img/hover.png);
     background-repeat: no-repeat;
     background-position: bottom;
     color: rgb(250,190,190);
 }
 
+/*Menu Mobile*/
+
+.menu-compacto-trigger{
+	float:right;
+	margin-right: 15px;
+	margin-top: -45px;
+      }
+	  
+	  #menu-compacto {
+    position: absolute;
+	width: 200px;
+	height: 78%;
+	margin-left: 300px;
+	margin-top: 30px;
+	
+	  }
+	  
+#menu-compacto .menuItem{
+	margin-right: 50px;
+	color: #fff;
+	height: 30px;
+	border: 4px;
+	border-color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgb(100,20,40)), to(rgb(90,10,40)));
+    background: -moz-linear-gradient(top, #EBCCCE, #EBCCCE);
+	padding-left: 35px;
+	border: 3px;
+	border-color: #fff;
+	padding-top:15px;
+
+}
+
+
+
+#menu-compacto .menulink{
+	color: #fff;
+	text-decoration: none;
+}
+
+	  
 /*Página Principal*/
 
 .home{

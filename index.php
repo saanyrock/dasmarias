@@ -23,7 +23,13 @@
                 <img src="img/insta.png">
             </a>
         </div>
-        <menu id="menu-cabecalho">
+        
+        <div class="logo"><a " href="?pagina=home"><a " href="?pagina=home"><a " href="?pagina=home"></a><a " href="?pagina=home"><img src="img/logo.png"/></a></a></a></div>
+        
+<a href='#' class="menu-compacto-trigger" onclick="mudarMenuCompacto()">
+                <img src='img/diamante-08.png' width='50'/>
+            </a>
+        <menu id="menu-compacto">
             <div class="menuItem" name="home"><a class="menuLink" href="?pagina=home">Home</a></div>
             <div class="menuItem" name="empresa"><a class="menuLink" href="?pagina=empresa">Empresa</a></div>
             <div class="menuItem" name="produtos"><a class="menuLink" href="?pagina=produtos">Produtos</a></div>
@@ -31,10 +37,6 @@
             <div class="menuItem" name="contato"><a class="menuLink" href="?pagina=contato">Contatos</a></div>
             </div>
         </menu>
-
-        <div class="logo"><a " href="?pagina=home"><a " href="?pagina=home"><a " href="?pagina=home"></a><a " href="?pagina=home"><img src="img/logo.png"/></a></a></a></div>
-
-
 
     </header>
 
@@ -52,9 +54,9 @@
     <footer>           
         <p>
             (62) 3637-2142<br>
-            R. Benjamin Constant, 674, GoiÃ¢nia - GO, 74525-050               
+            R. Benjamin Constant, 674, Goiânia - GO, 74525-050               
         </p>
-        <div id="copyright">Copyright Â© 2016 - Design Grafico Modulo III Senac-GO | Todos os direitos reservados e protegidos</div>
+        <div id="copyright">Copyright © 2016 - Design Grafico Modulo III Senac-GO | Todos os direitos reservados e protegidos</div>
     </footer>
 </body>
 </html>
